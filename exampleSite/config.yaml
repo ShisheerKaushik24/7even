@@ -366,7 +366,7 @@ params:
       count: 3
       title: Recent Posts
       enable: true
-      disableFeaturedImage: false
+      disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/ShisheerKaushik24
       linkedin: https://www.linkedin.com/in/ShisheerKaushik24/
