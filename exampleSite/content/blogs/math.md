@@ -2,7 +2,7 @@
 title: "Render Math With Mathjax"
 date: 2022-12-09T19:53:33+05:30
 draft: false
-author: "Gurusabarish"
+author: "Shisheer Kaushik"
 tags:
   - Markdown syntax
   - Mathjax
