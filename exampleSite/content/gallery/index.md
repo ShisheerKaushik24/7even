@@ -2,7 +2,7 @@
 title: "Gallery"
 date: 2022-06-25T18:35:46+05:30
 draft: false
-description: "Welcome to my gallery! Explore our collection of images."
+description: "Welcome to our gallery! Explore our collection of images."
 ---
 
 ## Welcome to our Gallery!
@@ -11,8 +11,8 @@ This gallery features a collection of images showcasing various subjects and the
 
 ### Featured Folders
 
-- [Folder 1](folder1/)
-- [Folder 2](folder2/)
+- [![Folder 1](/path/to/thumbnail1.jpg)](folder1/)
+- [![Folder 2](/path/to/thumbnail2.jpg)](folder2/)
 
 ### Featured Images
 
