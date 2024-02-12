@@ -143,6 +143,8 @@ params:
           url: https://github.com/ShisheerKaushik24
         - icon: fab fa-x-twitter
           url: https://twitter.com/Agusthya1
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/shisheerkaushik24/
       customIcons:
         - icon: /fav.png
           url: "https://casamir.netlify.app"
