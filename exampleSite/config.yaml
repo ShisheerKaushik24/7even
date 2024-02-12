@@ -147,8 +147,6 @@ params:
           url: https://www.linkedin.com/shisheerkaushik24/
         - icon: fab fa-instagram
           url: https://www.instagram.com/shis_kaushik/
-        - icon: fab fa-scholar
-          url: https://scholar.google.com/citations?user=Uc2AMO4AAAAJ&hl=en
 
 
   # About
@@ -179,7 +177,7 @@ params:
     # title: "Custom Name"
     items:
       - job: "SparQ Summer Intern"
-        company: "QNu Labs Pvt.Ltd"
+        company: "QNu Labs"
         companyUrl: "https://www.qnulabs.com"
         date: "May 2023 - Jul 2023"
         featuredLink:
@@ -189,7 +187,7 @@ params:
         content: "I collaborated closely with a team of seasoned professionals on a project entitled Browser-Based Quantum-Safe VPN PQC Plugin as part of the [SparQ Summer Internship.](https://sites.google.com/view/shashankg687/sparq-summer-internship) in Bengaluru, IN. Also access the [acceptance mail](https://drive.google.com/file/d/1kt-ZQ1BsctoOeG-WyE_0z9kz7ZQKfw2-/view?usp=sharing)"
 
       - job: "Junior Researcher"
-        company: "Qkrishi Quantum Pvt.Ltd"
+        company: "Qkrishi Quantum"
         companyUrl: "https://qkrishi.com/"
         date: "Feb 2023 - Apr 2023"
         featuredLink:
@@ -198,9 +196,9 @@ params:
           url: "https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/Vehicle%20routing%20problem"
         info:
           enable: true
-          content: Working on an ongoing project as a part of my work as a junior researcher at Qkrishi, Gurgaon, India.
+          content: Worked on an ongoing project as a part of my work as a junior researcher at Qkrishi, Gurgaon, India.
         content: |
-           The objective is to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem and benchmark the respective routing algorithm on various available QPUs by testing on several optimization algorithms to observe and compare the best optimal minimal cost. Access the [experience letter](https://drive.google.com/file/d/1_QP7Wn-4F7b5meSQ3Kyk12e2ZT9H_Duw/view?usp=drive_link).
+           The objective was to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem and benchmark the respective routing algorithm on various available QPUs by testing on several optimization algorithms to observe and compare the best optimal minimal cost. Access the [experience letter](https://drive.google.com/file/d/1_QP7Wn-4F7b5meSQ3Kyk12e2ZT9H_Duw/view?usp=drive_link).
 
       - job: "Junior Software Developer"
         company: "Apple"
@@ -274,6 +272,7 @@ params:
         GPA: "9.3 out of 10.0"
         featuredLink:
           enable: true
+          name: "My academic record"
           url: "https://example.com"
 
   # Achievements
@@ -284,17 +283,18 @@ params:
       - title: IBM Qiskit Advocate
         content: I Cracked Qiskit Certification exam and got into Qiskit Advocacy program.
         url: https://qiskit.org/advocates
-        image: /images/achievment.jpg
+        image: /images/advocate.png
       - title: IBM Quantum Challenges [2021,2022,2023]
         content: These IBM Quantum challenges provided me an ideal platform for me to explore various Quantum Computing Applications. And I secured Advance Badge among the pool of 2000+ participants across the world and my results stood out in the top 25 contestants..
         url: https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters
-        image: /images/achievment.jpg
+        image: /images/challenge.png
       - title: QC Hackathon
         content: Our team, got 7th in the Open Hackathon Challenges, for building a QR-Code Generator using the Bernstein-Vazirani algorithm.
         url: "https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/QR-code-generator"
-        image: /images/achievment.jpg
+        image: /images/qc_hack.png
       - title: Excellence In Academics Student of Engineering Department
         content: I was awarded as Excellence In Academics Student of Engineering Department in 2019 by the B N M Institute of Technology for securing 3rd place in the department.
+        image: /images/bnmit.jpg
 
   # projects
   projects:
