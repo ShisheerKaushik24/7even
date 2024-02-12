@@ -1,6 +1,6 @@
-# baseURL: "https://hugo-profile.netlify.app"
-# languageCode: "en-us"
-# title: "Hugo Profile"
+baseURL: "https://casamir.netlify.app/"
+languageCode: "en-us"
+title: "Shisheer Kaushik"
 # theme: hugo-profile
 
 outputs:
@@ -140,12 +140,12 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/ShisheerKaushik24
         - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://twitter.com/Agusthya1
       customIcons:
         - icon: /fav.png
-          url: "https://example.com"
+          url: "https://casamir.netlify.app"
 
   # About
   about:
