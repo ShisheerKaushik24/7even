@@ -125,8 +125,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Shisheer Kaushik"
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    subtitle: "An Autodidactic in the field of Quantum Information Science"
+    content: "I'm a self-taught passionate Quantum Software developer. I have been in Quantum Tech Field over the "
     image: /images/hero.png
     bottomImage:
       enable: true
@@ -145,9 +145,11 @@ params:
           url: https://twitter.com/Agusthya1
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/shisheerkaushik24/
-      customIcons:
-        - icon: /fav.png
-          url: "https://casamir.netlify.app"
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/shis_kaushik/
+        - icon: fab fa-google-scholar
+          url: https://scholar.google.com/citations?user=Uc2AMO4AAAAJ&hl=en
+
 
   # About
   about:
@@ -155,19 +157,21 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I am a Quantum Technology entusiast specilizing in Quantum information science. I have a actively participated in numerous conferences, workshops, and hackathons and am a engaged member of the Qworld Association community, where I have mentored several events, I am currently a a post-graduate student at [Indian Institute of Technology, Jodhpur.](https://iitj.ac.in) in Rajasthan, IN. 
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
+        - "C/C++"
         - "HTML"
-        - "CSS"
+        - "Python"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Qiskit"
+        - "Pennylane"
+        - "TensorFlow"
+        - "D-wave Ocean"
+        - "Sckit-learn"
 
   # Experience
   experience:
