@@ -184,7 +184,8 @@ params:
           enable: true
           name: "project source"
           url: "https://github.com/ShisheerKaushik24/Browser-based-PQC-plugin/"
-        content: "I collaborated closely with a team of seasoned professionals on a project entitled Browser-Based Quantum-Safe VPN PQC Plugin as part of the [SparQ Summer Internship.](https://sites.google.com/view/shashankg687/sparq-summer-internship) in Bengaluru, IN. Also access the [acceptance mail](https://drive.google.com/file/d/1kt-ZQ1BsctoOeG-WyE_0z9kz7ZQKfw2-/view?usp=sharing)"
+        content: |
+          I collaborated closely with a team of seasoned professionals on a project entitled Browser-Based Quantum-Safe VPN PQC Plugin as part of the [SparQ Summer Internship.](https://sites.google.com/view/shashankg687/sparq-summer-internship) in Bengaluru, IN. Also access the [acceptance mail](https://drive.google.com/file/d/1kt-ZQ1BsctoOeG-WyE_0z9kz7ZQKfw2-/view?usp=sharing)
 
       - job: "Junior Researcher"
         company: "Qkrishi Quantum"
@@ -198,7 +199,7 @@ params:
           enable: true
           content: Worked on an ongoing project as a part of my work as a junior researcher at Qkrishi, Gurgaon, India.
         content: |
-           The objective was to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem and benchmark the respective routing algorithm on various available QPUs by testing on several optimization algorithms to observe and compare the best optimal minimal cost. Access the [experience letter](https://drive.google.com/file/d/1_QP7Wn-4F7b5meSQ3Kyk12e2ZT9H_Duw/view?usp=drive_link).
+          The objective was to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem and benchmark the respective routing algorithm on various available QPUs by testing on several optimization algorithms to observe and compare the best optimal minimal cost. Access the [experience letter](https://drive.google.com/file/d/1_QP7Wn-4F7b5meSQ3Kyk12e2ZT9H_Duw/view?usp=drive_link).
 
       - job: "Junior Software Developer"
         company: "Apple"
