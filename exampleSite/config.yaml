@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://github.com/ShisheerKaushik24/Certificate-Acheived/master/Valuable-Certi/Resume.pdf"
+      url: "https://github.com/ShisheerKaushik24/Certificate-Acheived/blob/master/Valuable-Certi/Resume.pdf"
       download: true
       newPage: true
     socialLinks:
