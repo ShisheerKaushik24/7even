@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://raw.githubusercontent.com/ShisheerKaushik24/Certificate-Acheived/master/Valuable-Certi/Resume.pdf"
+      url: "https://github.com/ShisheerKaushik24/Certificate-Acheived/master/Valuable-Certi/Resume.pdf"
       download: true
       newPage: true
     socialLinks:
@@ -270,6 +270,7 @@ params:
         school:
           name: "Alva Pre-University."
           url: "https://alvascollege.com"
+        date: "2016 - 2018"
         GPA: "9.3 out of 10.0"
         featuredLink:
           enable: true
