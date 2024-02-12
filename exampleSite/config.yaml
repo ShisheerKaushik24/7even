@@ -125,7 +125,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Shisheer Kaushik"
-    subtitle: "An Autodidactic in the field of Quantum Information Science"
+    subtitle: "Autodidactic in Quantum Information Science"
     content: "I'm a self-taught passionate Quantum Software developer. I have been in Quantum Tech Field over the "
     image: /images/hero.png
     bottomImage:
@@ -134,9 +134,9 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://raw.githubusercontent.com/ShisheerKaushik24/Certificate-Acheived/master/Valuable-Certi/Resume.pdf"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -147,7 +147,7 @@ params:
           url: https://www.linkedin.com/shisheerkaushik24/
         - icon: fab fa-instagram
           url: https://www.instagram.com/shis_kaushik/
-        - icon: fab fa-google-scholar
+        - icon: fab fa-scholar
           url: https://scholar.google.com/citations?user=Uc2AMO4AAAAJ&hl=en
 
 
@@ -178,31 +178,29 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "SparQ Summer Intern"
+        company: "QNu Labs Pvt.Ltd"
+        companyUrl: "https://www.qnulabs.com"
+        date: "May 2023 - Jul 2023"
         featuredLink:
           enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          name: "project source"
+          url: "https://github.com/ShisheerKaushik24/Browser-based-PQC-plugin/"
+        content: "I collaborated closely with a team of seasoned professionals on a project entitled Browser-Based Quantum-Safe VPN PQC Plugin as part of the [SparQ Summer Internship.](https://sites.google.com/view/shashankg687/sparq-summer-internship) in Bengaluru, IN. Also access the [acceptance mail](https://drive.google.com/file/d/1kt-ZQ1BsctoOeG-WyE_0z9kz7ZQKfw2-/view?usp=sharing)"
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Junior Researcher"
+        company: "Qkrishi Quantum Pvt.Ltd"
+        companyUrl: "https://qkrishi.com/"
+        date: "Feb 2023 - Apr 2023"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          name: "project source"
+          url: "https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/Vehicle%20routing%20problem"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: Working on an ongoing project as a part of my work as a junior researcher at Qkrishi, Gurgaon, India.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+           The objective is to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem and benchmark the respective routing algorithm on various available QPUs by testing on several optimization algorithms to observe and compare the best optimal minimal cost. Access the [experience letter](https://drive.google.com/file/d/1_QP7Wn-4F7b5meSQ3Kyk12e2ZT9H_Duw/view?usp=drive_link).
 
       - job: "Junior Software Developer"
         company: "Apple"
@@ -244,39 +242,36 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Technology in Quantum Technologies"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Indian Institute of Technology, Jodhpur"
+          url: "https://iitj.ac.in"
+        date: "2023 - present"
+        GPA: "7.8 out of 10.0"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+            - Executive Member at [Quantum Computing Innovators Group](https://qcig-iitj.netlify.app). 
+            - Class Commitee Member for [IDRP QIC Dept](https://iitj.ac.in/qic/) at IIT Jodhpur.
+      - title: "Bachelor of Engineering in Electronics & Communication"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "BNM Institute of Technology"
+          url: "https://www.bnmit.org"
+        date: "2018 - 2022"
+        GPA: "8.37 out of 10.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
+          I Publiced two papers in the IEEE Conference on Wearable Tecchnologies.
+          - I was a IEEE Student Representative.
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Student Fundraiser at [TYCIA Foundation](https://tyciafoundation.org) and [Valliappa Foundatation](https://www.valliappafoundation.org).
         featuredLink:
           enable: true
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
+      - title: "Senior High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+          name: "Alva Pre-University."
+          url: "https://alvascollege.com"
+        GPA: "9.3 out of 10.0"
         featuredLink:
           enable: true
           url: "https://example.com"
@@ -286,22 +281,20 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
+      - title: IBM Qiskit Advocate
+        content: I Cracked Qiskit Certification exam and got into Qiskit Advocacy program.
+        url: https://qiskit.org/advocates
         image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
+      - title: IBM Quantum Challenges [2021,2022,2023]
+        content: These IBM Quantum challenges provided me an ideal platform for me to explore various Quantum Computing Applications. And I secured Advance Badge among the pool of 2000+ participants across the world and my results stood out in the top 25 contestants..
+        url: https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters
         image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
+      - title: QC Hackathon
+        content: Our team, got 7th in the Open Hackathon Challenges, for building a QR-Code Generator using the Bernstein-Vazirani algorithm.
+        url: "https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/QR-code-generator"
         image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Excellence In Academics Student of Engineering Department
+        content: I was awarded as Excellence In Academics Student of Engineering Department in 2019 by the B N M Institute of Technology for securing 3rd place in the department.
 
   # projects
   projects:
