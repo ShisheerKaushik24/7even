@@ -10,14 +10,6 @@ image: /images/projects/celebrity.jpg
 description: "This project is the works done during my internship at [Cloud x Lab](https://cloudxlab.com/home), India. This project uses the face-recognition library in Python to find a celebrity look-alike from a picture that is being uploaded. The face-recognition library is built using `dlib’s` state-of-the-art face recognition which uses `CNN` to classify several types of touch interaction from humans by learning the data pattern from a force sensor. The model had **98.38%** computing similarity when tested on two distinct metrics based approaches such as Euclidean distance and Mahalanobis distance."
 toc: true
 ---
-
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  
 ## Objective
     
 Given a dataset of celebrity images, labeled by name, create a low-dimensional descriptor representing the likeness of the face detected in each image. Using this low-dimensional descriptor, compute a similarity score between faces detected in test images and the celebrities in the dataset. The celebrity with the highest similarity score is declared the *“lookalike”* or *“doppelganger”* to an individual detected in a test image.
@@ -99,8 +91,7 @@ There are two metrics I used for computing similarity. The first is a simple, ne
 
 Euclidean distance is really easy to interpret: if I look at the descriptor vectors as embeddings in a *128D vector space*, then similar vectors are ones whose tails are close to one another in the normal linear sense. In the context of the problem at-hand, the most similar celebrity to a person detected in a test image will have descriptor with shortest length to the descriptor representing the person detected in the test image.
 
-![](celeb/euclidean-distance.png)
-    
+<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/celeb/euclidean-distance.png" alt="On Simulator [qasm]" width="70%">
 
 ## Mahalanobis Distance
 
@@ -111,7 +102,7 @@ Because we have a few representative samples for each label, the Mahalanobis dis
 
 Note: the fundamental assumption of this approach is that the training images for each celebrity are sampled from a normal distribution. Whether or not this is a valid assumption across the entirety of the dataset was not evaluated as part of this project. I just wanted to try out this approach and see how it compares to the *Euclidean distance* approach.
 
-![](celeb/mahalanobis-distance.png)
+<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/celeb/mahalanobis-distance.png" alt="On Simulator [qasm]" width="70%">
     
 
 ## Discussion
@@ -120,26 +111,3 @@ The discussion here will be brief, since the expected outcome of the project has
 
 One thing of note is that Matches 1 and 2 for Image 1 claim to represent two different celebrities, Selena and Selena Gomez, however the images representing Selena are, in fact, pictures of Selena Gomez. Since I didn’t have to train the model, this inconsistency in labeling isn’t a big deal, but if I were to refine the model by retraining on the celeb_mini dataset provided, I would merge the two separate folders into one. Moreover, I’d do a deeper dive into the dataset itself to make sure there were no other inconsistencies present.
 
-<a id="scroll-to-top" href="#top">&#8593;</a>
-
-<script>
-window.addEventListener('DOMContentLoaded', function() {
-  var scrollToTop = document.getElementById('scroll-to-top');
-
-  window.addEventListener('scroll', function() {
-    if (window.pageYOffset > 200) { // Adjust the value (200) as needed
-      scrollToTop.style.display = 'block';
-    } else {
-      scrollToTop.style.display = 'none';
-    }
-  });
-
-  scrollToTop.addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-});
-</script>
-
-</body>
-</html>
