@@ -8,11 +8,14 @@ tags:
   - Qiskit
   - Optimization
 image: /images/projects/vehicle.gif
-description: "The project's objective is to benchmark the repective routing algorithm on various available *QPU's* by testing on several optimization algorithm to observe and compare the best **optimal (minimal) cost** for a vehicles to deliver goods to a fixed number of customers with optimal efficiency."
-toc: true
+description: "The project's objective is to benchmark the repective routing algorithm on various available *QPU's* by testing on several optimization algorithm to observe and compare the best **optimal (minimal) cost** for a vehicles to deliver goods to a fixed number of customers with optimal efficiency"
+toc:
 ---
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 <body>
 
 ## Vehicle Routing Problem
@@ -51,15 +54,16 @@ The research work demonstrates the various results of the benchmarking with resp
 **Benchmarking results for 3 nodes + depot (1) &  2 vehicles tested on `ibmq_qasm_simulator** 
 
 *Comparison results of `ibmq_qasm_simulation` and `ibm_quito`*
-  ![On Simulator](vehicle/3_2_C.png)
-  ![On real Quantum Hardware](vehicle/3_2_Q.png)
+
+![On Simulator](vehicle/3_2_C.png)
+![On real Quantum Hardware](vehicle/3_2_Q.png)
 
 **Benchmarking results for 4 nodes + depot (1) &  3 vehicles tested on `ibmq_qasm_simulator`**
 
 *Comparison results of `ibmq_qasm_simulation` and `ibm_quito`*
 
- ![On Simulator](vehicle/4_3_C.png)
- ![On real Quantum Hardware](vehicle/4_3_Q.png)
+![On Simulator](vehicle/4_3_C.png)
+![On real Quantum Hardware](vehicle/4_3_Q.png)
  
 **Benchmarking results when tested on various *optimizers*, using `SPSA`, `L_BFGS_B` and `SLQSP`**
 
@@ -98,19 +102,16 @@ There were certain factors which might have caused the error:
 
 3. Also the type of algorithm matters, In case of variational - `SamplingVQE`. The anstaz is customisable [One has the freedom to can choose or make a difference too]. But, the **QAOA** comes with its default ansataz.
     
-
 ## Solving VRP using Quantum Annealing technique
     
 Similarly an attempt to to use Quantum Annealing technique is performed by using Dwave-ocean-sdk and the implementation data and its test results can be found [here:](https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/tree/master/vehicle-routing/D-wave-annealer)
 
-<table align="center">
 *Comparison results obtained when 3 discreet test_input{graphs} were simulated on `D-wave CPU`* 
 
-  ![Graph 1](vehicle/solver1_t1_cpu.png) 
-  ![Graph 2](vehicle/solver1_t2_cpu.png)
-  ![Graph 3](vehicle/solver1_t3_cpu.png)
+![Graph 1](vehicle/solver1_t1_cpu.png) 
+![Graph 2](vehicle/solver1_t2_cpu.png)
+![Graph 3](vehicle/solver1_t3_cpu.png)
 
-<table align="center">
 *Comparison results obtained when 3 discreet test_input{graphs} were computed on `D-Wave 2000Q QPU`* 
 
 ![Graph 1](vehicle/solver1_t1_qpu.png)
