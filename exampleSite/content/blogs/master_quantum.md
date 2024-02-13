@@ -11,17 +11,6 @@ description: "As the field of Quantum Computing continues to grow, the need for 
 toc: 
 ---
 
-<!DOCTYPE html>
-<div align="center">
-
-</div>
-
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-
 ## United Kingdom
 
 ### University College London (UCL)
@@ -324,27 +313,3 @@ Coming Soon...........
 ## Asian Continent
 
 Coming Soon...........
-
-<a id="scroll-to-top" href="#top">&#8593;</a>
-
-<script>
-window.addEventListener('DOMContentLoaded', function() {
-  var scrollToTop = document.getElementById('scroll-to-top');
-
-  window.addEventListener('scroll', function() {
-    if (window.pageYOffset > 200) { // Adjust the value (200) as needed
-      scrollToTop.style.display = 'block';
-    } else {
-      scrollToTop.style.display = 'none';
-    }
-  });
-
-  scrollToTop.addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-});
-</script>
-
-</body>
-</html>
