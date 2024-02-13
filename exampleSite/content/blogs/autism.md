@@ -10,7 +10,7 @@ tags:
   - Quantum
 image: /images/projects/autism.jpg
 description: "This project integrates quantum processing into a classical deep learning pipeline, demonstrating the potential of quantum convolution in image classification tasks. The readme file could further discuss the implications of combining quantum and classical approaches and interpret the training results."
-toc:
+toc: true
 ---
 - **Organization**
   - [Indian Institute of Technology Jodhpur](https://iitj.ac.in)
