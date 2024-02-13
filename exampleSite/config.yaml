@@ -298,12 +298,12 @@ params:
         content: I got selected to join the most passionate group of people in quantum computing by IBM Quantum Community.
         url: "https://www.credly.com/badges/96c51333-32c9-4a83-9131-92efd6c46b22/public_url"
         image: /images/ibm.png
-      - title: IBM Certified Associate Developer Quantum Computation using Qiskit v0.2X
+      - title: IBM Certified Associate Developer Quantum Computation using Qiskit
         content: I cracked this Proctored to get recognised as IBM Qiskit Developer.
         url: "https://www.credly.com/badges/7ddfb3af-2f3f-4b9f-93c5-c264e2606f34/public_url"
         image: /images/advocate.png
       - title: IBM Quantum Challenges [2021,2022,2023]
-        content: These IBM Quantum challenges provided me an ideal platform for me to explore various Quantum Computing Applications. And I secured Advance Badge among the pool of 2000+ participants across the world and my results stood out in the top 25 contestants..
+        content: These IBM Quantum challenges provided me an ideal platform for me to explore various Quantum Computing Applications. And I secured Advance Badge among the pool of 2000+ participants across the world and my results stood out in the top 25 contestants.
         url: "https://github.com/ShisheerKaushik24/IBM-Quantum-challenge-chapters"
         image: /images/challenge.png
       - title: QC Hackathon
