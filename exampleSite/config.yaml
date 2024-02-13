@@ -1,7 +1,7 @@
 baseURL: "https://casamir.netlify.app/"
 languageCode: "en-us"
 title: "Shisheer Kaushik"
-# theme: hugo-profile
+theme: hugo-profile
 
 outputs:
   home:
