@@ -12,6 +12,6 @@ This gallery features a collection of images showcasing various subjects and the
 
 ### Featured Folders
 
-- [![Folder 1](/path/to/jaiselmer.jpg)](content/gallery/folder1/)
-- [![Folder 2](/path/to/shimla.jpg)](content/gallery/folder2/)
+- [![Folder 1](jaiselmer.jpg)](folder1/index.md/)
+- [![Folder 2](shimla.jpg)](folder2/index.md/)
 
