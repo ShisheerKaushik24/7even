@@ -1,13 +1,13 @@
 ---
-title: "Rich Content"
-date: 2021-04-03T19:53:33+05:30
+title: "Benchmarking and Solving Vehicle routing problem on various Quantum Computing (QPU's)"
+date: 2023-05-03T19:53:33+05:30
 draft: false
-author: "Gurusabarish"
+author: "Shisheer Kaushik"
 tags:
-  - Rich content
-  - Sample
-  - example
-image: /images/post.jpg
+  - Quantum
+  - Qiskit
+  - Optimization
+image: /images/project/vehicle.gif
 description: "The project's objective is to benchmark the repective routing algorithm on various available *QPU's* by testing on several optimization algorithm to observe and compare the best **optimal (minimal) cost** for a vehicles to deliver goods to a fixed number of customers with optimal efficiency."
 toc: 
 ---
@@ -41,8 +41,6 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
     
   </p>
 </section>
-
-![](vehicle.gif)
 
 <section id="section2">
   <h2>The overall workflow we demonstrate comprises:</h2>
@@ -95,8 +93,8 @@ The research work demonstrates the various results of the benchmarking with resp
 <table align="center">
   <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
   <tr>
-    <td><img src="asset/3_2_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="asset/3_2_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+    <td><img src="vehicle/3_2_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="vehile/3_2_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
   </tr>
 </table>
 
@@ -105,8 +103,8 @@ The research work demonstrates the various results of the benchmarking with resp
 <table align="center">
   <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
   <tr>
-    <td><img src="asset/4_3_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="asset/4_3_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+    <td><img src="vehicle/4_3_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="vehicle/4_3_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
   </tr>
 </table>
 
@@ -126,8 +124,8 @@ The research work demonstrates the various results of the benchmarking with resp
 <table align="center">
   <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_oslo`</caption>
   <tr>
-    <td><img src="asset/5_4_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="asset/5_4_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+    <td><img src="vehicle/5_4_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="vehicle/5_4_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
   </tr>
 </table>
   
@@ -143,9 +141,9 @@ The research work demonstrates the various results of the benchmarking with resp
 <table align="center">
   <caption>Comparison results obtained when 2 discreet optimizers such as `COBYLA` and `SPSA`were utilized and simulated on `ibmq_qasm_simulation`</caption>
   <tr>
-    <td><img src="asset/5_4_QAOA_C.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="asset/5_4_QAOA_COBYLA.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="asset/5_4_QAOA_SPSA.png" alt="On real Quantum Computer [ibmq-bogota]" width="100%"></td>
+    <td><img src="vehicle/5_4_QAOA_C.png" alt="On Simulator [qasm]" width="100%"></td>
+    <td><img src="vehicle/5_4_QAOA_COBYLA.png" alt="On Simulator [qasm]" width="100%"></td>
+    <td><img src="vehicle/5_4_QAOA_SPSA.png" alt="On real Quantum Computer [ibmq-bogota]" width="100%"></td>
   </tr>
 </table>
   
@@ -178,18 +176,18 @@ Similarly an attempt to to use Quantum Annealing technique is performed by using
 <table align="center">
   <caption>Comparison results obtained when 3 discreet test_input{graphs} were simulated on `D-wave CPU` </caption>
   <tr>
-    <td><img src="asset/solver1_t1_cpu.png" alt="Graph 1" width="100%"></td>
-    <td><img src="asset/solver1_t2_cpu.png" alt="Graph 2" width="100%"></td>
-    <td><img src="asset/solver1_t3_cpu.png" alt="Graph 3" width="100%"></td>
+    <td><img src="vehicle/solver1_t1_cpu.png" alt="Graph 1" width="100%"></td>
+    <td><img src="vehicle/solver1_t2_cpu.png" alt="Graph 2" width="100%"></td>
+    <td><img src="vehicle/solver1_t3_cpu.png" alt="Graph 3" width="100%"></td>
   </tr>
 </table>
 
 <table align="center">
   <caption>Comparison results obtained when 3 discreet test_input{graphs} were computed on `D-Wave 2000Q QPU` </caption>
   <tr>
-    <td><img src="asset/solver1_t1_qpu.png" alt="Graph 1" width="100%"></td>
-    <td><img src="asset/solver1_t2_qpu.png" alt="Graph 2" width="100%"></td>
-    <td><img src="asset/solver1_t3_qpu.png" alt="Graph 3" width="100%"></td>
+    <td><img src="vehicle/solver1_t1_qpu.png" alt="Graph 1" width="100%"></td>
+    <td><img src="vehicle/solver1_t2_qpu.png" alt="Graph 2" width="100%"></td>
+    <td><img src="vehicle/solver1_t3_qpu.png" alt="Graph 3" width="100%"></td>
   </tr>
 </table>
 
