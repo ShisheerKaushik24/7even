@@ -6,7 +6,7 @@ author: "Shisheer Kaushik"
 tags:
   - Educational
   - Quantum
-image: /images/cover.jpg
+image: /images/featured.jpg
 description: "As the field of Quantum Computing continues to grow, the need for University and advanced educated individuals to make up the Quantum Computing workforce has grown as well. Below is a list of Master’s Degree Programs in the Quantum Computing Field offered by Universities around the world, featuring programs that range from onsite to online, and from one to two years in duration."
 toc: 
 ---
