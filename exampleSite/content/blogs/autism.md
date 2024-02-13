@@ -30,7 +30,7 @@ Autism is categorized as neuro-developmental disorder which has severe effects o
     
 QCNN, or Quantum Convolutional Neural Network extends the key features and structures of existing CNN to quantum systems. When a quantum physics problem defined in the many-body Hilbert space is transferred to a classical computing environment, the data size grows exponentially in proportion to the system size, making it unsuitable for efficient solutions. Because data in a quantum environment can be expressed using qubits, the problem can be avoided by applying a CNN structure to a quantum computer. Now, let us have a look at the architecture of the QCNN model.
 
-<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/autism/layer.png" alt="layer" width="85%">
+<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/autism/layer.png" alt="layer" width="65%">
 
 As shown in the above architecture, the QCNN model applies the convolution layer and the pooling layer which are the key features of CNN, to the quantum systems.
 
@@ -103,7 +103,7 @@ This project integrates quantum processing into a classical deep learning pipeli
    - Labels are encoded with indices for autistic and non-autistic classes.
    - Image preprocessing involves resizing, normalization, and adding an extra dimension for convolution channels. The dataset is then split into training and testing sets using `train_test_split` from scikit-learn.
   
-<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/autism/output.png" alt="On Simulator [qasm]" width="85%">
+<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/autism/output.png" alt="On Simulator [qasm]" width="65%">
 
 3. **Quantum Circuit Definition (`circuit`):**
    - A quantum device with 4 qubits is created using PennyLane.
@@ -131,7 +131,7 @@ This project integrates quantum processing into a classical deep learning pipeli
 10. **Accuracy and Loss Visualization:**
     - Matplotlib is used to visualize the accuracy and loss of the quantum model and classical model over epochs. The results are shown in two subplots, one for accuracy and one for loss, comparing the performance with and without the quantum layer.
 
-<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/autism/graph.png" alt="On Simulator [qasm]" width="85%">
+<img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/autism/graph.png" alt="On Simulator [qasm]" width="65%">
  
 
 ## Conclusion
