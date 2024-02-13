@@ -11,10 +11,6 @@ This gallery features a collection of images showcasing various subjects and the
 
 ### Featured Folders
 
-- [![Folder 1](/path/to/thumbnail1.jpg)](folder1/)
-- [![Folder 2](/path/to/thumbnail2.jpg)](folder2/)
+- [![Folder 1](/path/to/thumbnail1.jpg)](content/gallaery/folder1/)
+- [![Folder 2](/path/to/thumbnail2.jpg)](content/gallaery/folder2/)
 
-### Featured Images
-
-![Image 1](/path/to/featured/image1.jpg)
-![Image 2](/path/to/featured/image2.jpg)
