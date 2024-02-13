@@ -1,6 +1,6 @@
 ---
 title: "Quantum Horizons-Exploring Global University Degree Programs in Quantum Technology"
-date: 2021-04-03T22:41:10+05:30
+date: 2023-04-03T22:41:10+05:30
 draft: false
 author: "Shisheer Kaushik"
 tags:
