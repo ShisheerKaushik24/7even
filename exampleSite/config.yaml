@@ -328,9 +328,10 @@ params:
         content: This project is a part of the Fundamental of ML course evalution criteria and was done at IIT Jodhpur. I Built a diagnostic model for medical images by employing Convolution Neural Networks and transfer learning techniques.
         image: /images/projects/autism.gif
         featured:
-          name: Clip
+          name: Presentation Clip
           link: https://www.youtube.com/watch?v=uIKkJragaoU
         badges:
+          - "Quantum"
           - "Deep Learning"
           - "Machine Learning"
           - "Pennylane"
