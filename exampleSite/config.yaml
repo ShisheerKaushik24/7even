@@ -186,7 +186,7 @@ params:
           url: "https://github.com/ShisheerKaushik24/Browser-based-PQC-plugin/"
         content: |
           I collaborated closely with a team of seasoned professionals on a project entitled Browser-Based Quantum-Safe VPN PQC Plugin as part of the [SparQ Summer Internship.](https://sites.google.com/view/shashankg687/sparq-summer-internship) in Bengaluru, IN. 
-          - Access the [acceptance mail.](https://drive.google.com/file/d/1kt-ZQ1BsctoOeG-WyE_0z9kz7ZQKfw2-/view?usp=sharing)
+            - Access the [acceptance mail.](https://drive.google.com/file/d/1kt-ZQ1BsctoOeG-WyE_0z9kz7ZQKfw2-/view?usp=sharing)
 
       - job: "Junior Researcher"
         company: "Qkrishi Quantum"
@@ -201,8 +201,8 @@ params:
           content: Worked on an ongoing project as a part of my work as a junior researcher at Qkrishi, Gurgaon, India.
         content: |
           The objective was to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem.
-          - Also I benchmarked the respective routing algorithm on various available QPUs by testing on several optimization algorithms to observe and compare the best optimal minimal cost. 
-          - Access the [experience letter](https://drive.google.com/file/d/1_QP7Wn-4F7b5meSQ3Kyk12e2ZT9H_Duw/view?usp=drive_link).
+            - Also I benchmarked the respective routing algorithm on various available QPUs by testing on several optimization algorithms to observe and compare the best optimal minimal cost. 
+            - Access the [experience letter](https://drive.google.com/file/d/1_QP7Wn-4F7b5meSQ3Kyk12e2ZT9H_Duw/view?usp=drive_link).
 
       - job: "Project Mentee"
         company: "Qworld"
@@ -216,9 +216,9 @@ params:
           url: "https://drive.google.com/file/d/1gjoRfXwN5j4vcJvukv9Vxpi9EBJZt3mJ/view"
         content: |
           The project focused mainly on creating a platform for a comprehensive and curated collection of resources aiming to help understand Quantum Computing.
-          - I was allotted to one respective group under a mentor to work on major computational issues faced during Quantum Computation, like Quantum Error Correction.
-          - During the course of my internship, I devised a Quantum Error Detection model based on surface error code, it enhanced my skills and knowledge in this particular field.
-          - QMap, the outcome of a project at QWorld, is a comprehensive and curated collection of resources aiming to help you in exploring and understanding various aspects of Quantum Technology
+            - I was allotted to one respective group under a mentor to work on major computational issues faced during Quantum Computation, like Quantum Error Correction.
+            - During the course of my internship, I devised a Quantum Error Detection model based on surface error code, it enhanced my skills and knowledge in this particular field.
+            - QMap, the outcome of a project at QWorld, is a comprehensive and curated collection of resources aiming to help you in exploring and understanding various aspects of Quantum Technology
 
       - job: "Skill India Intern"
         company: "Elite Techno"
@@ -230,8 +230,8 @@ params:
           url: "https://github.com/ShisheerKaushik24/Elite-Techno-Internship"
         content: |
           During one month of the internship, I implemented an Inventory Management system by transmitting structured data network in JSON format.
-          - This system was used to keep track of products, perform sales analysis and generate a statement consisting of the purchase history of the company..
-          - Created a frontend design for a product.
+            - This system was used to keep track of products, perform sales analysis and generate a statement consisting of the purchase history of the company..
+            - Created a frontend design for a product.
 
       - job: "Undergraduate Thesis Student"
         company: "BNMIT"
@@ -243,9 +243,9 @@ params:
           url: "https://drive.google.com/file/d/1qUgaxbiJ-Dc67If54K6RPYvux4j_58Rt/edit"
         content: |
           I worked on my UG project thesis at Advanced Communication Lab at BNMIT, Bengaluru.
-          - The aim of the project is to design and fabricate a very efficient, highly sensitive and low-cost micro-strip patch antenna.
-          - It was etched customized logo which is tailored to perform the intended application of remotely monitoring the health.
-          - I published my work at IEEE International Conference on [Inteligent and Innovation Technologies](https://ieeexplore.ieee.org/document/10091015).
+            - The aim of the project is to design and fabricate a very efficient, highly sensitive and low-cost micro-strip patch antenna.
+            - It was etched customized logo which is tailored to perform the intended application of remotely monitoring the health.
+            - I published my work at IEEE International Conference on [Inteligent and Innovation Technologies](https://ieeexplore.ieee.org/document/10091015).
 
   # Education
   education:
@@ -271,7 +271,7 @@ params:
         GPA: "8.37 out of 10.0"
         content: |-
           I Publiced two papers in the IEEE Conference on Wearable Tecchnologies.
-          - I was a IEEE Student Representative.
+            - I was a IEEE Student Representative.
           Extracurricular Activities
             - Student Fundraiser at [TYCIA Foundation](https://tyciafoundation.org) and [Valliappa Foundatation](https://www.valliappafoundation.org).
         featuredLink:
