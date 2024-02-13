@@ -16,18 +16,12 @@
     </div>
     <div class="card-group p-4">
         <div class="row justify-content-center">
-            {{ range .Site.RegularPages }}
-                {{ if eq .Section "gallery" }}
-                    {{ if eq $.Params.folder .Title }}
-                        {{ range .Params.galleryImages }}
-                            <div class="col-md-4 p-0 m-0">
-                                <div class="card p-0 m-0 border-0">
-                                    <img class="w-100" height="280px" src="{{ .src }}">
-                                </div>
-                            </div>
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
+            {{ range .Params.galleryImages }}
+            <div class="col-md-4 p-0 m-0">
+                <div class="card p-0 m-0 border-0">
+                    <img class="w-100" height="280px" src="{{ .src }}">
+                </div>
+            </div>
             {{ end }}
         </div>
     </div>
