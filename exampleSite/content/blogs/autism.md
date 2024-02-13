@@ -1,6 +1,6 @@
 ---
 title: "Autism Disease Detection Using Quantum Transfer Learning Techniques"
-date: 2021-04-03T23:29:21+05:30
+date: 2023-09-14T23:29:21+05:30
 draft: false
 github_link: "https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/Automated%20Medical%20Image%20Diagnostics%20using%20QML"
 author: "Shisheer Kaushik"
