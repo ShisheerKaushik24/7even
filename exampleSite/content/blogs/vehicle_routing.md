@@ -94,7 +94,7 @@ The research work demonstrates the various results of the benchmarking with resp
   <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
   <tr>
     <td><img src="vehicle/3_2_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="vehile/3_2_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+    <td><img src="vehicle/3_2_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
   </tr>
 </table>
 
@@ -113,9 +113,9 @@ The research work demonstrates the various results of the benchmarking with resp
 <table align="center">
   <caption>Comparison results obtained when 3 discreet optimizers were utilized and simulated on `ibmq_qasm_simulation` </caption>
   <tr>
-    <td><img src="asset/4_3_SPSA.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="asset/4_3_LB.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="asset/4_3_SL.png" alt="On real Quantum " width="100%"></td>
+    <td><img src="vehicle/4_3_SPSA.png" alt="On Simulator [qasm]" width="100%"></td>
+    <td><img src="vehicle/4_3_LB.png" alt="On Simulator [qasm]" width="100%"></td>
+    <td><img src="vehicle/4_3_SL.png" alt="On real Quantum " width="100%"></td>
   </tr>
 </table>
 
