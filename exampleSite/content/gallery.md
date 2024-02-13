@@ -7,9 +7,8 @@ layout: "gallery"
 galleryImages:
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/jaiselmer.jpg
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/pic2.jpg
- - src: 
- - src: 
- - src: 
+ - src: https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/static/images/gallery/DSC_0115.JPG
+ - src: https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/static/images/gallery/DSC_0733.JPG
+ - src: https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/static/images/hero.png
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/shimla.jpg
- - src:  
 ---
