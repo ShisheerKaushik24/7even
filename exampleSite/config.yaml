@@ -280,7 +280,7 @@ params:
             - I was a IEEE Student Representative.
             - Student Fundraiser at [TYCIA Foundation](https://tyciafoundation.org) and [Valliappa Foundatation](https://www.valliappafoundation.org).
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
       - title: "Senior High School"
@@ -290,7 +290,7 @@ params:
         date: "2016 - 2018"
         GPA: "9.3 out of 10.0"
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
 
