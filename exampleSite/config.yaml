@@ -322,11 +322,11 @@ params:
       - title: Autism Disease Detection Using Quantum Transfer Learning Techniques
         content: |-
         This project is a part of the Fundamental of ML course evalution criteria and was done at IIT Jodhpur. 
-          - I Built a diagnostic model for medical images by employing Convolution Neural Networks (CNNs) and transfer learning techniques.
+          - I Built a diagnostic model for medical images by employing Convolution Neural Networks and transfer learning techniques.
           - Understood the CNN in terms of Quantum Gates and circuits and Compared the results between Classical CNN and QCNN.
         image: /images/projects/autism.gif
         featured:
-          name: Presentation Clip
+          name: Clip
           link: https://www.youtube.com/watch?v=uIKkJragaoU
         badges:
           - "Deep Learning"
@@ -337,11 +337,11 @@ params:
           - icon: fab fa-github
             url: https://github.com/ShisheerKaushik24/FML-project-IITJ
 
-      - title: Benchmarking and Solving Vehicle routing problem on various Quantum Computing QPU's
+      - title: Benchmarking and Solving Vehicle routing problem on various Quantum Computing QPU
         content: |- 
         This project was a part of my work as a junior researcher at Qkrishi, Gurgaon, India. 
           - The objective is to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem.
-          - Finaly I benchmarked the respective routing algorithm on various available QPU’s by testing on several optimization algorithms to observe and compare the best optimal (minimal) cost.
+          - Finaly I benchmarked the respective routing algorithm on various available QPU’s by testing on several optimization algorithms to observe and compare the best optimal cost.
         image: /images/projects/vehicle.gif
         badges:
           - "Quantum"
@@ -353,10 +353,10 @@ params:
           - icon: fab fa-github
             url: https://github.com/ShisheerKaushik24/Junior-Researcher-Project-1
 
-       - title: Malware detection in Android devices using Quantum Machine Learning
+      - title: Malware detection in Android devices using Quantum Machine Learning
         content: |- 
         The novel approach of this project provides the ability to detect malware on mobile devices.
-          - As the inference engine for malware detection, the SecML was utilized to evaluate the security of a malware detector which is based on Variational Quantum Classifier (VQC).
+          - As the inference engine for malware detection, the SecML was utilized to evaluate the security of a malware detector which is based on Variational Quantum Classifier.
           - The detection process is performed by taking into account the malware’s features, captured on the mobile devices. Experimental research shows that the SVMs are able to produce accurate classification results.
         image: /images/malware.gif
         badges:
@@ -404,9 +404,9 @@ params:
             
       - title: Celebrity Lookalike Project
         content: |-
-        This project is the works done during my internship at Cloud x Lab, India. 
-          - This project uses the face recognition library in Python to find a celebrity look-alike from a picture that is being uploaded.
-          - The face-recognition library is built using dlib’s state-of-the-art face recognition which uses CNN to classify several types of touch interaction from humans by learning the data pattern from a force sensor.
+        This project is the works done during my internship at CloudxLab, India. 
+          - This project uses the face recognition library in Python to find a celebrity look alike from a picture that is being uploaded.
+          - The face recognition library is built using dlib’s state of the art face recognition which uses CNN to classify several types of touch interaction from humans by learning the data pattern from a force sensor.
           - The model had 98.38 percent computing similarity when tested on two distinct metrics based approaches such as Euclidean distance and Mahalanobis distance.
         image: /images/projects/celeb.gif
         badges:
