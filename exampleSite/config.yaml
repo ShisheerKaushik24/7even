@@ -367,7 +367,7 @@ params:
             url: https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/android-malware-detection-using-vqc
          
       - title: Quantum QR Code Generator
-        content: This model creates a QR-code for the respective words ecoded into the model obtained from the Bernstein Vazirani algorithm. It uses data from a quantum computer instead of using pulsar data. The project won seventh place at [Quantum-Coalition](https://www.quantumcoalition.io/qc-hack-2021) Open Hackathon 2021.
+        content: This model creates a QR-code for the respective words ecoded into the model obtained from the Bernstein Vazirani algorithm. It uses data from a quantum computer instead of using pulsar data.
         image: /images/qr.gif
         badges:
           - "Quantum"
