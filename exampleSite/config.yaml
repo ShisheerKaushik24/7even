@@ -295,8 +295,12 @@ params:
     # title: "Custom Name"
     items:
       - title: IBM Qiskit Advocate
-        content: I Cracked Qiskit Certification exam and got into Qiskit Advocacy program.
-        url: https://qiskit.org/advocates
+        content: I got selected to join the most passionate group of people in quantum computing by IBM Quantum Community.
+        url: https://www.credly.com/badges/96c51333-32c9-4a83-9131-92efd6c46b22/public_url
+        image: /images/ibm.png
+      - title: IBM Certified Associate Developer - Quantum Computation using Qiskit v0.2X
+        content: I cracked this Proctored to get recognised as IBM Qiskit Developer.
+        url: https://www.credly.com/badges/7ddfb3af-2f3f-4b9f-93c5-c264e2606f34/public_url
         image: /images/advocate.png
       - title: IBM Quantum Challenges [2021,2022,2023]
         content: These IBM Quantum challenges provided me an ideal platform for me to explore various Quantum Computing Applications. And I secured Advance Badge among the pool of 2000+ participants across the world and my results stood out in the top 25 contestants..
@@ -315,14 +319,32 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Benchmarking and Solving Vehicle routing problem on various Quantum Computing (QPU's)
-        content:
-        - This project was a part of my work as a junior researcher at Qkrishi, Gurgaon, India. The objective is to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem.
-        - And benchmarked the respective routing algorithm on various available QPU’s by testing on several optimization algo- rithms to observe and compare the best optimal (minimal) cost.
-        image: /images/projects/vehicle.gif
+      - title: Autism Disease Detection Using Quantum Transfer Learning Techniques
+        content: |
+        This project is a part of the Fundamental of ML course evalution criteria and was done at IIT Jodhpur. 
+          - I Built a diagnostic model for medical images by employing Convolution Neural Networks (CNNs) and transfer learning techniques.
+          - Understood the CNN in terms of Quantum Gates and circuits and Compared the results between Classical CNN and QCNN.
+        image: /images/projects/autism.gif
         featured:
-          name: Source Code
-          link: https://github.com/ShisheerKaushik24/Junior-Researcher-Project-1
+          name: Presentation Clip
+          link: https://www.youtube.com/watch?v=uIKkJragaoU
+          name: Project Report
+          url: https://github.com/ShisheerKaushik24/FML-project-IITJ/raw/master/prompt/report.pdf
+        badges:
+          - "Deep Learning"
+          - "Machine Learning"
+          - "Pennylane"
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ShisheerKaushik24/FML-project-IITJ
+
+      - title: Benchmarking and Solving Vehicle routing problem on various Quantum Computing (QPU's)
+        content: | 
+        This project was a part of my work as a junior researcher at Qkrishi, Gurgaon, India. 
+          - The objective is to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem.
+          - Finaly I benchmarked the respective routing algorithm on various available QPU’s by testing on several optimization algo- rithms to observe and compare the best optimal (minimal) cost.
+        image: /images/projects/vehicle.gif
         badges:
           - "Quantum"
           - "Qiskit"
@@ -332,33 +354,71 @@ params:
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/ShisheerKaushik24/Junior-Researcher-Project-1
-         
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+       - title: Malware detection in Android devices using Quantum Machine Learning
+        content: | 
+        The novel approach of this project provides the ability to detect malware on mobile devices.
+          - As the inference engine for malware detection, the SecML was utilized to evaluate the security of a malware detector which is based on Variational Quantum Classifier (VQC).
+          - The detection process is performed by taking into account the malware’s features, captured on the mobile devices. Experimental research shows that the SVMs are able to produce accurate classification results.
+        image: /images/malware.gif
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Quantum"
+          - "Qiskit"
+          - "Python"
+          - "Security"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/android-malware-detection-using-vqc
+         
+      - title: Quantum QR-Code Generator
+        content: |
+        This model creates a QR-code for the respective words ecoded into the model obtained from the Bernstein-Vazirani algorithm.
+          - It uses data from a quantum computer instead of using pulsar data. 
+          - he project won seventh place at [Quantum-Coalition](https://www.quantumcoalition.io/qc-hack-2021) Open Hackathon 2021.
+        image: /images/qr.gif
+        badges:
+          - "Quantum"
+          - "Qiskit"
+          - "Python"
+          - "Security"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/QR-code-generator
+
+      - title: Designing Wearable UHB Micro-strip patch antenna
+        content: |
+        This project is the works done during my research internship at Advance Communication Lab, B N M Institute of Technology, India.
+          - The aim of the project is to design and fabricate a very efficient, highly sensitive and low-cost micro-strip patch antenna.
+          - It was etched customized logo which is tailored to perform the intended application of remotely monitoring the health.
+        image: /images/antena.jpg
+        featured:
+          name: Project Report
+          link: https://drive.google.com/file/d/1qUgaxbiJ-Dc67If54K6RPYvux4j_58Rt/edit
+        badges:
+          - "CST Studio Suite"
+          - "Origin Lab"
+          - "LaTeX"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ShisheerKaushik24/Wearable_Antenna
+            
+      - title: Celebrity Lookalike Project
+        content: |
+        This project is the works done during my internship at Cloud x Lab, India. 
+          - This project uses the face-recognition library in Python to find a celebrity look-alike from a picture that is being uploaded.
+          - The face-recognition library is built using dlib’s state-of-the-art face recognition which uses CNN to classify several types of touch interaction from humans by learning the data pattern from a force sensor.
+          - The model had 98.38% computing similarity when tested on two distinct metrics based approaches such as Euclidean distance and Mahalanobis distance.
+        image: /images/projects/celeb.gif
+        badges:
+          - "Deep Learning"
+          - "Machine Learning"
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ShisheerKaushik24/Celebrity-resemblance-classification-model
+
 
   #Contact
   contact:
