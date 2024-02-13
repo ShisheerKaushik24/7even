@@ -6,7 +6,6 @@ description: "My gallery :earth_asia:"
 layout: "gallery"
 galleryImages:
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/jaiselmer.jpg
- - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/pic1.jpg
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/pic2.jpg
  - src: https://img.etimg.com/thumb/msid-68721417,width-650,imgsize-1016106,,resizemode-4,quality-100/nature1_gettyimages.jpg
  - src: https://thumbs.dreamstime.com/b/team-ants-council-collective-decision-work-17037482.jpg
