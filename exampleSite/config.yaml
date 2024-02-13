@@ -349,7 +349,7 @@ params:
           - "Python"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Regarding%20Project%20related%20Issue&body=Project%20name:%20Vehicle%20routing%20Problem
+            url: mailto:shisheerkoushik24@gmail.com?subject=Regarding%20Project%20related%20Issue&body=Project%20name:%20Vehicle%20routing%20Problem
           - icon: fab fa-github
             url: https://github.com/ShisheerKaushik24/Junior-Researcher-Project-1
  
@@ -363,7 +363,7 @@ params:
           - "Security"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Regarding%20Project%20related%20Issue&body=Project%20name:%20Autism%20classification%20using%20QML
+            url: mailto:shisheerkoushik24@gmail.com?subject=Regarding%20Project%20related%20Issue&body=Project%20name:%20Autism%20classification%20using%20QML
           - icon: fab fa-github
             url: https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/android-malware-detection-using-vqc
          
@@ -409,7 +409,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: shisheerskaushik@aol.com
+    email: shisheerkoushik24@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
