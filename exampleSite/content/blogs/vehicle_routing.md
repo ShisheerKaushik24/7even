@@ -54,58 +54,41 @@ The research work demonstrates the various results of the benchmarking with resp
 
 **Benchmarking results for 3 nodes + depot (1) &  2 vehicles tested on `ibmq_qasm_simulator** 
 
-<table align="center">
-  <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
-  <tr>
-    <td><img src="vehicle/3_2_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="vehicle/3_2_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
-  </tr>
-</table>
+*Comparison results of `ibmq_qasm_simulation` and `ibm_quito`*
+  ![On Simulator](vehicle/3_2_C.png)
+  ![On real Quantum Hardware](vehicle/3_2_Q.png)
 
 **Benchmarking results for 4 nodes + depot (1) &  3 vehicles tested on `ibmq_qasm_simulator`**
 
-<table align="center">
-  <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
-  <tr>
-    <td><img src="vehicle/4_3_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="vehicle/4_3_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
-  </tr>
-</table>
+*Comparison results of `ibmq_qasm_simulation` and `ibm_quito`*
 
+ ![On Simulator](vehicle/4_3_C.png)
+ ![On real Quantum Hardware](vehicle/4_3_Q.png)
+ 
 **Benchmarking results when tested on various *optimizers*, using `SPSA`, `L_BFGS_B` and `SLQSP`**
 
-<table align="center">
-  <caption>Comparison results obtained when 3 discreet optimizers were utilized and simulated on `ibmq_qasm_simulation` </caption>
-  <tr>
-    <td><img src="vehicle/4_3_SPSA.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="vehicle/4_3_LB.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="vehicle/4_3_SL.png" alt="On real Quantum " width="100%"></td>
-  </tr>
-</table>
+*Comparison results obtained when 3 discreet optimizers were utilized and simulated on `ibmq_qasm_simulation`*
+
+![On Simulator](vehicle/4_3_SPSA.png)
+![On simulator {qasm}](vehicle/4_3_LB.png) 
+![On real Quantum hardware](vehicle/4_3_SL.png)
 
 **Benchmarking results for 5 nodes + depot (1) &  4 vehicles tested on `ibmq_qasm_simulator** 
 
-<table align="center">
-  <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_oslo`</caption>
-  <tr>
-    <td><img src="vehicle/5_4_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="vehicle/5_4_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
-  </tr>
-</table>
+*Comparison results of `ibmq_qasm_simulation` and `ibm_oslo`*
+
+![On simulator {qasm}](vehicle/5_4_C.png)
+![On reak quantum Hardware](vehicle/5_4_Q.png)
 
 ## Quantum Approximate Optimization Algorithm (QAOA)
 
 **Benchmarking results when tested on 2 different *optimizers*, using `SPSA` and `COBYLA` for 5 nodes + depot (1) &  4 vehicles**
 
-<table align="center">
-  <caption>Comparison results obtained when 2 discreet optimizers such as `COBYLA` and `SPSA`were utilized and simulated on `ibmq_qasm_simulation`</caption>
-  <tr>
-    <td><img src="vehicle/5_4_QAOA_C.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="vehicle/5_4_QAOA_COBYLA.png" alt="On Simulator [qasm]" width="100%"></td>
-    <td><img src="vehicle/5_4_QAOA_SPSA.png" alt="On real Quantum Computer [ibmq-bogota]" width="100%"></td>
-  </tr>
-</table>
-  
+*Comparison results obtained when 2 discreet optimizers such as `COBYLA` and `SPSA`were utilized and simulated on `ibmq_qasm_simulation`*
+
+![On simulator](vehicle/5_4_QAOA_C.png) 
+![On simulator {COBYLA}](vehicle/5_4_QAOA_COBYLA.png)
+![On real quantum hardware](vehicle/5_4_QAOA_SPSA.png)
  
 ## Results
 
@@ -125,22 +108,18 @@ There were certain factors which might have caused the error:
 Similarly an attempt to to use Quantum Annealing technique is performed by using Dwave-ocean-sdk and the implementation data and its test results can be found [here:](https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/tree/master/vehicle-routing/D-wave-annealer)
 
 <table align="center">
-  <caption>Comparison results obtained when 3 discreet test_input{graphs} were simulated on `D-wave CPU` </caption>
-  <tr>
-    <td><img src="vehicle/solver1_t1_cpu.png" alt="Graph 1" width="100%"></td>
-    <td><img src="vehicle/solver1_t2_cpu.png" alt="Graph 2" width="100%"></td>
-    <td><img src="vehicle/solver1_t3_cpu.png" alt="Graph 3" width="100%"></td>
-  </tr>
-</table>
+*Comparison results obtained when 3 discreet test_input{graphs} were simulated on `D-wave CPU`* 
+
+  ![Graph 1](vehicle/solver1_t1_cpu.png) 
+  ![Graph 2](vehicle/solver1_t2_cpu.png)
+  ![Graph 3](vehicle/solver1_t3_cpu.png)
 
 <table align="center">
-  <caption>Comparison results obtained when 3 discreet test_input{graphs} were computed on `D-Wave 2000Q QPU` </caption>
-  <tr>
-    <td><img src="vehicle/solver1_t1_qpu.png" alt="Graph 1" width="100%"></td>
-    <td><img src="vehicle/solver1_t2_qpu.png" alt="Graph 2" width="100%"></td>
-    <td><img src="vehicle/solver1_t3_qpu.png" alt="Graph 3" width="100%"></td>
-  </tr>
-</table>
+*Comparison results obtained when 3 discreet test_input{graphs} were computed on `D-Wave 2000Q QPU`* 
+
+![Graph 1](vehicle/solver1_t1_qpu.png)
+![Graph 2](vehicle/solver1_t2_qpu.png)"
+![Graph 3](vehicle/solver1_t3_qpu.png)
 
 As seen in the above results, there are many different vehicles which are travelling in accordance with the defined input{graph}, hence each fastest and cost efficient routes are highligted using different sets of color combination. The depot is highlighted with *Blue* color to distinguish with other nodes. 
 
