@@ -30,7 +30,7 @@ Autism is categorized as neuro-developmental disorder which has severe effects o
     
 QCNN, or Quantum Convolutional Neural Network extends the key features and structures of existing CNN to quantum systems. When a quantum physics problem defined in the many-body Hilbert space is transferred to a classical computing environment, the data size grows exponentially in proportion to the system size, making it unsuitable for efficient solutions. Because data in a quantum environment can be expressed using qubits, the problem can be avoided by applying a CNN structure to a quantum computer. Now, let us have a look at the architecture of the QCNN model.
 
-{{< figure src="/autism/layer.png" alt="Your Image Alt Text" width="300" >}}
+{{< figure src="/autism/jaiselmer.jpg" alt="Your Image Alt Text" width="300" >}}
 
 As shown in the above architecture, the QCNN model applies the convolution layer and the pooling layer which are the key features of CNN, to the quantum systems.
 
@@ -50,7 +50,7 @@ The quantum convolution layer is a layer in a quantum system that behaves like a
 
 Small quantum computers can construct the quantum convolution layer because it does not apply the entire image map to a quantum system at once but rather processes it as much as the filter size at a time. The quantum convolution layer can be constructed as shown in the diagram below. The following is an explanation of how the concept works:
 
-![](autism/example.png)
+![](autism/jaiselmer.jpg)
 
 1. During the encoding process, the pixel data corresponding to the filter size is stored in qubits.
 2. Filters in learnable quantum circuits can detect the hidden state from the input state.
