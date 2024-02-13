@@ -307,7 +307,7 @@ params:
         content:
         - This project was a part of my work as a junior researcher at Qkrishi, Gurgaon, India. The objective is to develop a novel optimized quantum algorithm using several methods, like the phase estimation technique to solve the traveling salesman problem and vehicle routing problem.
         - And benchmarked the respective routing algorithm on various available QPU’s by testing on several optimization algo- rithms to observe and compare the best optimal (minimal) cost.
-        image: /images/projects/profile.png
+        image: /images/projects/vehicle.gif
         featured:
           name: Source Code
           link: https://github.com/ShisheerKaushik24/Junior-Researcher-Project-1
