@@ -53,10 +53,13 @@ The research work demonstrates the various results of the benchmarking with resp
 
 **Benchmarking results for 3 nodes + depot (1) &  2 vehicles tested on `ibmq_qasm_simulator** 
 
-*Comparison results of `ibmq_qasm_simulation` and `ibm_quito`*
-
-![On Simulator](vehicle/3_2_C.png)
-![On real Quantum Hardware](vehicle/3_2_Q.png)
+<table align="center">
+  <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
+  <tr>
+    <td><img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/vehicle/3_2_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="https://github.com/ShisheerKaushik24/7even/raw/master/exampleSite/content/blogs/vehicle/3_2_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+  </tr>
+</table>
 
 **Benchmarking results for 4 nodes + depot (1) &  3 vehicles tested on `ibmq_qasm_simulator`**
 
