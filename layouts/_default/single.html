@@ -42,19 +42,6 @@
       </div>
       <div class="col-sm-12 col-md-12 col-lg-3">
         <div id="stickySideBar" class="sticky-sidebar">
-          <!-- Folder Navigation Section -->
-          <aside class="folder-navigation">
-            <h5>Gallery Folders</h5>
-            <ul class="list-unstyled">
-              {{ range .Site.RegularPages }}
-                {{ if eq .Section "gallery" }}
-                  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{ end }}
-              {{ end }}
-            </ul>
-          </aside>
-
-          <!-- Table of Contents, Tags, Social Share (if needed) -->
           {{ if .Params.toc | default true}}
           <aside class="toc">
               <h5>
