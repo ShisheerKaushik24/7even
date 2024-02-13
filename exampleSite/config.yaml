@@ -275,9 +275,9 @@ params:
         date: "2018 - 2022"
         GPA: "8.37 out of 10.0"
         content: |-
-          I Publiced two papers in the IEEE Conference on Wearable Tecchnologies.
-            - I was a IEEE Student Representative.
           Extracurricular Activities
+            - I Publiced two papers in the IEEE Conference on Wearable Tecchnologies.
+            - I was a IEEE Student Representative.
             - Student Fundraiser at [TYCIA Foundation](https://tyciafoundation.org) and [Valliappa Foundatation](https://www.valliappafoundation.org).
         featuredLink:
           enable: true
