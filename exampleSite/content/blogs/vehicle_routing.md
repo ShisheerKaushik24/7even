@@ -52,7 +52,7 @@ The research work demonstrates the various results of the benchmarking with resp
     
 ## Variational Quantum EigenSolver (VQE)</h2>
 
-### Benchmarking results for 3 nodes + depot (1) &  2 vehicles tested on `ibmq_qasm_simulator 
+**Benchmarking results for 3 nodes + depot (1) &  2 vehicles tested on `ibmq_qasm_simulator** 
 
 <table align="center">
   <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
@@ -62,7 +62,7 @@ The research work demonstrates the various results of the benchmarking with resp
   </tr>
 </table>
 
-### Benchmarking results for 4 nodes + depot (1) &  3 vehicles tested on `ibmq_qasm_simulator`
+**Benchmarking results for 4 nodes + depot (1) &  3 vehicles tested on `ibmq_qasm_simulator`**
 
 <table align="center">
   <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_quito`</caption>
@@ -72,7 +72,7 @@ The research work demonstrates the various results of the benchmarking with resp
   </tr>
 </table>
 
-### Benchmarking results when tested on various *optimizers*, using `SPSA`, `L_BFGS_B` and `SLQSP`
+**Benchmarking results when tested on various *optimizers*, using `SPSA`, `L_BFGS_B` and `SLQSP`**
 
 <table align="center">
   <caption>Comparison results obtained when 3 discreet optimizers were utilized and simulated on `ibmq_qasm_simulation` </caption>
@@ -83,7 +83,7 @@ The research work demonstrates the various results of the benchmarking with resp
   </tr>
 </table>
 
-### Benchmarking results for 5 nodes + depot (1) &  4 vehicles tested on `ibmq_qasm_simulator 
+**Benchmarking results for 5 nodes + depot (1) &  4 vehicles tested on `ibmq_qasm_simulator** 
 
 <table align="center">
   <caption>Comparison results of `ibmq_qasm_simulation` and `ibm_oslo`</caption>
@@ -95,7 +95,7 @@ The research work demonstrates the various results of the benchmarking with resp
 
 ## Quantum Approximate Optimization Algorithm (QAOA)
 
-### Benchmarking results when tested on 2 different *optimizers*, using `SPSA` and `COBYLA` for 5 nodes + depot (1) &  4 vehicles
+**Benchmarking results when tested on 2 different *optimizers*, using `SPSA` and `COBYLA` for 5 nodes + depot (1) &  4 vehicles**
 
 <table align="center">
   <caption>Comparison results obtained when 2 discreet optimizers such as `COBYLA` and `SPSA`were utilized and simulated on `ibmq_qasm_simulation`</caption>
