@@ -349,7 +349,7 @@ params:
           - "Python"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:?subject=Regarding%20Project%20Issue&body=Project%20name:%20Vehicle%20routing%20Problem
           - icon: fab fa-github
             url: https://github.com/ShisheerKaushik24/Junior-Researcher-Project-1
  
@@ -363,7 +363,7 @@ params:
           - "Security"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:?subject=Regarding%20Project%20Issue&body=Project%20name:%20Autism%20classification%20using%20QML
           - icon: fab fa-github
             url: https://github.com/ShisheerKaushik24/Quantum_projects/tree/master/android-malware-detection-using-vqc
          
