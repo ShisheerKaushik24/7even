@@ -9,15 +9,11 @@ tags:
   - Optimization
 image: /images/projects/vehicle.gif
 description: "The project's objective is to benchmark the repective routing algorithm on various available *QPU's* by testing on several optimization algorithm to observe and compare the best **optimal (minimal) cost** for a vehicles to deliver goods to a fixed number of customers with optimal efficiency."
-toc: 
+toc: true
 ---
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
 <body>
-  
 
 ## Vehicle Routing Problem
 
