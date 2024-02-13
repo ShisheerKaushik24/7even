@@ -2,8 +2,7 @@
 title: "Quantum Horizons-Exploring Global University Degree Programs in Quantum Technology"
 date: 2021-04-03T22:41:10+05:30
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
+author: "Shisheer Kaushik"
 tags:
   - Educational
   - Quantum
