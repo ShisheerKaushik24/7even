@@ -6,7 +6,6 @@ description: "My gallery :earth_asia:"
 layout: "gallery"
 galleryImages:
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/jaiselmer.jpg
- - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/pic2.jpg
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/DSC_0115.JPG
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/DSC_0809.JPG
  - src: https://raw.githubusercontent.com/ShisheerKaushik24/7even/master/exampleSite/static/images/gallery/DSC_0733.JPG
