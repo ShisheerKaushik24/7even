@@ -338,7 +338,8 @@ params:
         content: This project is a part of the  Quantum ML course evalution criteria and was done at IIT Jodhpur. I Built a Quantum Binary classification model for citrus and MNIST datasets by employing `EstimatorQNN` and `SamplerQNN` techniques.
         image: /images/projects/qml-iitj.png
         badges:
-          - "Quantum ML"
+          - "Quantum"
+          - "Quantum Machine Learning"
           - "Machine Learning"
           - "Qiskit"
           - "Python"
@@ -354,6 +355,7 @@ params:
           link: https://www.youtube.com/watch?v=uIKkJragaoU
         badges:
           - "Quantum"
+          - "Quantum Machine Learning"
           - "Deep Learning"
           - "Machine Learning"
           - "Pennylane"
