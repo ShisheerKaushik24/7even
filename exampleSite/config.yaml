@@ -178,7 +178,7 @@ params:
       - job: "Quantum Computing Intern"
         company: "QpiAI India Pvt Ltd"
         companyUrl: "https://qpiai.tech"
-        date: "May 2024"
+        date: "May 2024 - ongoing"
         featuredLink:
           enable: true
           # name: ""
@@ -272,7 +272,7 @@ params:
         school:
           name: "Indian Institute of Technology, Jodhpur"
           url: "https://iitj.ac.in"
-        date: "2023 - present"
+        date: "2023 - ongoing"
         GPA: "8.2 out of 10.0"
         content: |-
           Extracurricular Activities
