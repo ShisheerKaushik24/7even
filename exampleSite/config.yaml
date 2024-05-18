@@ -181,7 +181,7 @@ params:
         date: "May 2024"
         featuredLink:
           enable: true
-          name: "
+          name: ""
           url: ""
         content: |
           I am contributing to the development of the models `QpiAI opt` and `QpiAi ML`, based in Bengaluru, IN. 
@@ -273,7 +273,7 @@ params:
           name: "Indian Institute of Technology, Jodhpur"
           url: "https://iitj.ac.in"
         date: "2023 - present"
-        GPA: "7.8 out of 10.0"
+        GPA: "8.2 out of 10.0"
         content: |-
           Extracurricular Activities
             - Executive Member at [Quantum Computing Innovators Group](https://qcig-iitj.netlify.app). 
