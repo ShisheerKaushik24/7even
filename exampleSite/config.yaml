@@ -334,6 +334,18 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Quantum Binary Classification model with customised Ansatz
+        content: This project is a part of the  Quantum ML course evalution criteria and was done at IIT Jodhpur. I Built a Quantum Binary classification model for citrus and MNIST datasets by employing `EstimatorQNN` and `SamplerQNN` techniques.
+        image: /images/projects/qml-iitj.png
+        badges:
+          - "Quantum ML"
+          - "Machine Learning"
+          - "Qiskit"
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ShisheerKaushik24/QML-proj-iitj
+            
       - title: Autism Disease Detection Using Quantum Transfer Learning Techniques
         content: This project is a part of the Fundamental of ML course evalution criteria and was done at IIT Jodhpur. I Built a diagnostic model for medical images by employing Convolution Neural Networks and transfer learning techniques.
         image: /images/projects/autism.gif
