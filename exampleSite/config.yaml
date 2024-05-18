@@ -175,6 +175,17 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Quantum Computing Intern"
+        company: "QpiAI India Pvt Ltd"
+        companyUrl: "https://qpiai.tech"
+        date: "May 2024 - ongoing"
+        featuredLink:
+          enable: true
+          name: "
+          url: ""
+        content: |
+          I am contributing to the development of the models `QpiAI opt` and `QpiAi ML`, based in Bengaluru, IN. 
+                
       - job: "SparQ Summer Intern"
         company: "QNu Labs"
         companyUrl: "https://www.qnulabs.com"
