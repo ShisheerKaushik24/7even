@@ -18,6 +18,16 @@
     }
 </script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L8JYGKQX3P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L8JYGKQX3P');
+</script>
+
 <!-- Show header on scroll up -->
 {{ if .Site.Params.navbar.stickyNavBar.enable | default false }}
 {{ $showNavBarOnScrollUp := .Site.Params.navbar.stickyNavBar.showOnScrollUp | default false }}
