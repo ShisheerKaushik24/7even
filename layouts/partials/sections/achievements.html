@@ -1,4 +1,14 @@
 {{ if .Site.Params.achievements.enable | default false }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L8JYGKQX3P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L8JYGKQX3P');
+</script>
+
 <section id="achievements" class="py-5">
     <div class="container">
         <h3 class="text-center">{{ .Site.Params.achievements.title | default "Achievements" }}</h3>
